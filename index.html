@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>ToDoList</title>
+</head>
+
+<body>
+    <main>
+        <div class="main-left">
+            <div class="login">
+                <form  id ="login-form" class="hidden"> <!-- input의 유효성을 검사하기 위해서 form을 사용 -->
+                    <input id="name" type="text" placeholder="이름을 적어주세요">
+                    <input id="submit" type="submit" value="login">
+                </form>
+                <h1 class="hidden" id="greeting">1</h1>
+                <div class="music">
+                    <div class="music-option">music</div>
+                    <div class="music-controll">
+                        <button class="music-btn on">On</button>
+                        <button class="music-btn pause">Pause</button>
+                        <button class="music-btn off">Off</button>
+                    </div>
+                </div>
+                <div class="volume">
+                    <div>volume</div>
+                        <input class="volume-controll" type="range" step="0.01"
+                        min="0" max="1" value="0.5">
+                </div>
+                <div class="backGround">
+                    <button class="changeBackgroud">배경바꾸기</button>
+                </div>
+            </div>
+            <div class="clock">
+                <span id="day"></span>
+                <span id="time"></span>
+                <span id="weather"></span>
+            </div>
+            <div class="calendar">
+                <div class="header">
+                    <div class="year-month"></div>
+                    <div class="nav">
+                        <button class="nav-btn go-pre">&lt;</button>
+                        <button class="nav-btn go-today">Today</button>
+                        <button class="nav-btn go-next">&gt;</button>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="days">
+                        <div class="day">일</div>
+                        <div class="day">월</div>
+                        <div class="day">화</div>
+                        <div class="day">수</div>
+                        <div class="day">목</div>
+                        <div class="day">금</div>
+                        <div class="day">토</div>
+                    </div>
+
+                </div>
+                <div class="dates"></div>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="todo-box">
+                <form class="todo">
+                    <input id="todos" type="text" placeholder="일정을 적어주세요" required>
+                </form>
+                <ul id="todo-list"></ul>
+            </div>
+            <div class="quote-box">
+                    <div class="first">Today Qoute</div>
+                    <div></div>
+                    <div></div>
+            
+                <!-- span은 flex 적용안됨, div는 flex 적용  -->
+                <!-- qoute-box가 아닌 quote-box-box를 적용해야 innerText가 가능한지  -->
+            </div>
+        </div>
+    </main>
+    <script src="Js/login.js"></script>
+    <script src="Js/clcock.js"></script>
+    <script src="Js/calendar.js"></script>
+    <script src="Js/todo.js"></script>
+    <script src="Js/quote.js"></script>
+    <script src="Js/weather.js"></script>
+    <script src="Js/music.js"></script>
+    <script src="Js/background.js"></script>
+    <script src="quote.js"></script>
+</body>
+
+
+</html>
