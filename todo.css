@@ -1,0 +1,47 @@
+/* todo 리스트  */
+
+.todo-box {
+    
+    width: 373px;
+    height: 580px;
+    margin: 20px;
+    padding-bottom: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.todo {
+    width: 306px;
+    height: 50px;
+}
+
+.todo input{
+
+    width: 276px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+#todo-list {
+    width: 373px;
+    height: 390px;
+    overflow-x: none;
+    overflow-y: scroll;
+    word-break: break-all;
+    font-weight: bold;
+    font-size: 20px;
+    /*텍스트가 범위 밖으로 나갈때 자동으로 줄 바꿈*/
+}
+
+#todo-list li{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 5px;
+}

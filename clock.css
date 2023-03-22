@@ -1,0 +1,30 @@
+/* 시계 */
+.clock {
+    width: 547px;
+    height: 170px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#day {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#time {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#weather {
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,86 @@
+/* 캘린던 부분 */
+
+.calendar {
+    width: 547px;
+    height: 450px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.year-month {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+.nav-btn {
+    width: 40px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.go-today {
+    width: 75px;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+
+.days {
+    display: flex;
+    margin: 25px 0px 10px;
+}
+
+.day {
+    font-weight: bold;
+    font-size: 17px;
+    width: calc(100% / 7);
+    text-align: center;
+}
+
+.dates {
+    display: flex;
+    flex-flow: row wrap;
+    height: 300px;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+
+.date {
+    font-weight: bold;
+    font-size: 17px;
+    width: calc(100% / 7);
+    text-align: right;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #333333;
+}
+
+.day:nth-child(7n + 1),
+.date:nth-child(7n + 1) {
+    color: #D13E3E;
+}
+
+.day:nth-child(7n),
+.date:nth-child(7n) {
+    color: #396EE2;
+}
+
+.other {
+    opacity: 0.3;
+}

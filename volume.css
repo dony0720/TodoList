@@ -1,0 +1,17 @@
+.volume {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.volume div {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.volume input[type="range"] {
+    -webkit-appearance: none;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 10px;
+}
