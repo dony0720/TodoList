@@ -1,44 +1,31 @@
 const quotes = [
   {
-    quote: `The way to get started is to quit talking and begin doing.`,
-    author: "Walt Disney",
+    quote: `너희 염려를 다 주께 맡겨 버리라
+            이는 저가 너희를 권고하심이니라`,
+    author: "배드로전서 5장 7절",
   },
   {
-    quote: `Life is what happens when you're busy making other plans.`,
-    author: "John Lennon",
+    quote: `내게 능력 주시는 자 안에서 
+            내가 모든 것을 할 수 있느니라`,
+    author: "빌립보서 4장 13절",
   },
   {
-    quote:
-      `The world is a book and those who do not travel read only one page.`,
-    author: "Saint Augustine",
+    quote: `내 어여쁜 자야 일어나서 함께 가자`,
+    author: "아가 2장 10절",
   },
   {
-    quote: `Life is either a daring adventure or nothing at all.`,
-    author: "Helen Keller",
+    quote: `나의 힘이 되신 여호와여 내가 주를 사랑하나이다`,
+    author: "시편 18편 1절",
   },
   {
-    quote: `To Travel is to Live`,
-    author: "Hans Christian Andersen",
+    quote: `여호와는 네게 복을 주시고 
+            너를 지키시기를 원하며`,
+    author: "민수기 6장 24절",
   },
   {
-    quote: `Only a life lived for others is a life worthwhile.`,
-    author: "Albert Einstein",
-  },
-  {
-    quote: `You only live once, but if you do it right, once is enough.`,
-    author: "Mae West",
-  },
-  {
-    quote: `Never go on trips with anyone you do ntot love.`,
-    author: "Hemmingway",
-  },
-  {
-    quote: `We wander for distraction, but we travel for fulfilment.`,
-    author: "Hilaire Belloc",
-  },
-  {
-    quote: `Travel expands the mind and fills the gap.`,
-    author: "Sheda Savage",
+    quote: `너는 마음을 다하고 뜻을 다하고
+            힘을 다하여 네 여호와를 사랑하라`,
+    author: "신명기 6장 5절",
   },
 ];
 
